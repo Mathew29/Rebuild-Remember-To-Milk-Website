@@ -1,0 +1,34 @@
+.main-header h1 {
+    margin: 18px 0 31px 0;
+    font-size: 44px;
+    font-weight: 400;
+    color: #fff;
+}
+.main-header .container {
+    text-align: center;
+}
+
+.main-header .btn {
+    padding: 11px 32px 12px;
+    line-height: 1.2;
+}
+
+.btn .btn-warning {
+    border-radius: 4px;
+}
+.btn-lg {
+    font-size: 23px;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #d24b03;
+    border-color: transparent;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    vertical-align: middle;
+    cursor: pointer;
+}
