@@ -23,9 +23,18 @@
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
+    line-height: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 .footer-heading {
     font-weight: 700;
     color: #8b8b94;
     margin: 2px 0 8px 15px;
+}
+
+.nav .willHaveATag {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
 }
