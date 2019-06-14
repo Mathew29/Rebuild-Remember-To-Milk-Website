@@ -1,5 +1,10 @@
-<h1>Welcome to {{ title }}!</h1>
+
 <div *ngIf="header">
+    <app-header-nav></app-header-nav>
+</div>
+
+
+<div *ngIf="main">
     <app-main-header [childMainHeader]="masterMainHeader"></app-main-header>
 </div>
 
