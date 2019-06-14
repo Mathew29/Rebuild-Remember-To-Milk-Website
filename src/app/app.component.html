@@ -3,6 +3,10 @@
     <app-main-header [childMainHeader]="masterMainHeader"></app-main-header>
 </div>
 
+<div *ngIf="footer">
+    <app-footer-nav [childFooterCompany]="masterFooterCompany" [childFooterProduct]="masterFooterProduct"></app-footer-nav>
+</div>
+
 
 
 
