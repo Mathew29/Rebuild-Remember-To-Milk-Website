@@ -1,6 +1,8 @@
-<div class="container">
-  <div *ngFor="let currentHeader of childMainHeader">
-    <h2>{{currentHeader.header}}</h2>
+<header class="main-header">
+  <div class="container">
+    <div *ngFor="let currentHeader of childMainHeader">
+      <h1>{{currentHeader.header}}</h1>
+    </div>
+    <button class="btn btn-lg btn-warning" (click)="signUp()">Sign Up Free</button>
   </div>
-  <button (click)="signUp()">Sign Up Free</button>
-</div>
+</header>
