@@ -1,27 +1,40 @@
-# RebuildRememberTheMilk
+# _Rebuild Remember To Milk Website_
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.2.
+#### _A Rebuild of the website Remember To Milk_. 6/14/2019_
 
-## Development server
+#### By _**Mathew Akre**_
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
 
-## Code scaffolding
+_This program is a attempt to rebuild the website Remember To Milk._
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Setup/Installation Requirements
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+* _Clone Github repository_
+* _Open the command line_
+* _Change the directory to the Desktop_
+* _Change the directory to the file Rebuild-RememberToMilk_
+* _Run command $ npm install_
+* _Run command $ ng serve --open_
 
-## Running unit tests
+## Support and contact details
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+_mwakre29@gmail.com_
 
-## Running end-to-end tests
+## Technologies Used
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+_JavaScript_
+_Angular_
+_Typescript_
+_HTML_
+_CSS_
+_Node_
+_Jasmine_
+_Karma_
 
-## Further help
+### License
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+*This project is under the MIT License*
+
+Copyright (c) 2019 **_Mathew Akre_**
