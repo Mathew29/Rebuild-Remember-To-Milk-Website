@@ -13,6 +13,7 @@ import { FooterSupport } from './models/footer-support.models';
 export class AppComponent {
   title = 'remember the milk';
   header = true;
+  footer = true;
   masterMainHeader: MainHeader[] = [
     new MainHeader('The smart to-do app for busy people.')
   ];
