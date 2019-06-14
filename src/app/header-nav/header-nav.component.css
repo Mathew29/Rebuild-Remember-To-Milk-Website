@@ -24,5 +24,20 @@ p {
 li {
     list-style: none;
 }
+.navbar .top-nav-right li {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14x;
+    min-width: 120px;
+    max-width: 200px;
+}
+
+.navbar img {
+    background-size: 179px auto;
+    display: inline-block;
+    margin: 12px 0 0 2px;
+    position: relative;
+    width: 179px;
+}
 
 /* change p tag to a tag */
