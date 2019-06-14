@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Description } from './models/description.model';
+import { MainHeader } from './models/main-header.model';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +9,7 @@ import { Description } from './models/description.model';
 export class AppComponent {
   title = 'remember the milk';
   header = true;
-  masterDescriptionHeader: Description[] = [
-    new Description('The smart to-do app for busy people.')
+  masterMainHeader: MainHeader[] = [
+    new MainHeader('The smart to-do app for busy people.')
   ];
 }

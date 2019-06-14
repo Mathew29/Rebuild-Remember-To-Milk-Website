@@ -3,14 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
-import { DescriptionComponent } from './description/description.component';
+import { FooterNavComponent } from './footer-nav/footer-nav.component';
+import { MainHeaderComponent } from './main-header/main-header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarComponent,
-    DescriptionComponent
+    FooterNavComponent,
+    MainHeaderComponent
   ],
   imports: [
     BrowserModule,
