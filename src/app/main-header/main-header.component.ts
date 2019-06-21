@@ -1,5 +1,5 @@
-import { Component, Input, Output, EventEmitter } from '@angular/core';
-import { MainHeader } from '../models/main-header.model';
+import { Component } from '@angular/core';
+
 
 @Component({
   selector: 'app-main-header',
@@ -7,10 +7,5 @@ import { MainHeader } from '../models/main-header.model';
   styleUrls: ['./main-header.component.css']
 })
 export class MainHeaderComponent {
-  @Input() childMainHeader: MainHeader[];
-  @Output() clickSender = new EventEmitter();
 
-  signUp() {
-    this.clickSender.emit();
-  }
 }

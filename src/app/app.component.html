@@ -1,16 +1,10 @@
 <body>
-    <div *ngIf="header">
-        <app-header-nav></app-header-nav>
-    </div>
 
-    <div *ngIf="main">
-        <app-main-header [childMainHeader]="masterMainHeader"></app-main-header>
-    </div>
+    <app-header-nav></app-header-nav>
 
-    <div *ngIf="footer">
-        <app-footer-nav [childFooterCompany]="masterFooterCompany" [childFooterProduct]="masterFooterProduct"
-            [childFooterCommunity]="masterFooterCommunity" [childFooterSupport]="masterFooterSupport"></app-footer-nav>
-    </div>
+    <app-main-header></app-main-header>
+
+    <app-footer-nav></app-footer-nav>
 </body>
 
 
