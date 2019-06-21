@@ -1,3 +1,15 @@
-<p>
-  tour works!
-</p>
+<div class="panel-group">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h1 class="title">We're here to help!</h1>
+    </div>
+    <div class="panel-body">
+      <p class="employ">Since 2005, we've been helping millions of people all over the world to be more organized and productive. We'd love to help you, too! Meet the team:</p>
+      <div *ngFor="let employee of employees | async">
+        <img src="{{employee.img}}">
+        <p>{{employee.name}}</p>
+      </div>
+      <p>Have a question, or just want to say “hi”? We'd love to hear from you! Email us.</p>
+    </div>
+  </div>
+</div>
