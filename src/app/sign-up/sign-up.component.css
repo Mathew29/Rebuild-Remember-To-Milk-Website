@@ -12,6 +12,7 @@ button {
     margin-top: 5px;
 }
 
-input .moreSpace {
-    margin-top: 100px;
+h1 {
+    text-align: center;
+    color: #fff;
 }
