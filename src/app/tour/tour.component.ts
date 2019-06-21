@@ -14,7 +14,7 @@ export class TourComponent implements OnInit {
     this.employees = service.getEmployees();
 
     this.employees.subscribe( items => { 
-      console.log(items);
+      
       
     });
   }
