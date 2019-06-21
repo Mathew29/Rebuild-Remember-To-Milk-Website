@@ -1,0 +1,12 @@
+.blockOne {
+    background-color: rgb(185, 185, 185);
+}
+
+.blockTwo {
+ color: #fff;
+ border-bottom: 2px solid black;
+}
+
+.blockThree {
+    color: #fff;
+}
