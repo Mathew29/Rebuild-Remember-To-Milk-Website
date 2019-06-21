@@ -8,6 +8,19 @@
 
 _This program is a attempt to rebuild the website Remember To Milk._
 
+## Completed Features
+
+* _Click on Nav Bar image to return to the Homepage_
+* _Nav Bar tabs to be routed to corresponding routes_
+* _Sign Up Free button will route to Sign Up page_
+* _Grab information from firebase for the Tour page_
+
+## Features To Be Added
+* _Footer router links will take you to their corresponding page_
+* _Add more content to the Upgrade page_
+* _Add more content to the Help page_
+* _Add more styling to the Log In page_
+* _Add more styling to the Sign Up page_
 
 ## Setup/Installation Requirements
 
