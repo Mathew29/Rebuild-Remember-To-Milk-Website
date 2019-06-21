@@ -1,0 +1,30 @@
+input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info {
+    background-color: aqua;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+ul {
+    list-style: none;
+    color: #fff;
+}
+
+.panel-body ul li {
+    margin: 12px 0 0 2px;
+    position: relative;
+    overflow: hidden;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+}
