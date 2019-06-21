@@ -7,4 +7,18 @@ img {
 }
 .firebase-name {
     text-align: center;
+    color: #fff;
+}
+
+.blockOne {
+    background-color: #0060bf;
+    color: #fff;
+}
+
+.employ {
+    color: #fff;
+}
+
+.title {
+    color: #fff;
 }
