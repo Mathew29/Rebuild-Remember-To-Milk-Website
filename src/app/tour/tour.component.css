@@ -15,10 +15,21 @@ img {
     color: #fff;
 }
 
+.blockTwo {
+    background-color: #029923
+}
+
 .employ {
     color: #fff;
 }
 
 .title {
     color: #fff;
+}
+.milk {
+    max-width: 250px;
+}
+
+* {
+    background-blend-mode: color;
 }
