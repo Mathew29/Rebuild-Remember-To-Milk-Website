@@ -7,7 +7,7 @@
       <p class="employ">Since 2005, we've been helping millions of people all over the world to be more organized and productive. We'd love to help you, too! Meet the team:</p>
       <div *ngFor="let employee of employees | async">
         <img src="{{employee.img}}">
-        <p>{{employee.name}}</p>
+        <p class="firebase-name">{{employee.name}}</p>
       </div>
       <p>Have a question, or just want to say “hi”? We'd love to hear from you! Email us.</p>
     </div>
