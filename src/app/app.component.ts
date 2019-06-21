@@ -7,9 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'remember the milk';
-  header = true;
-  main = true;
-  footer = true;
+
 
 
     
